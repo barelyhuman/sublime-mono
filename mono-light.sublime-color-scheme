@@ -1,0 +1,41 @@
+{
+    "name": "Mono Light",
+    "globals":
+    {
+        "background": "#f8f9fa",
+        "foreground": "#343a40",
+        "caret": "#ced4da",
+        "selection":"#ced4da",
+        "selection_border":"#ced4da"
+    },
+    "rules":
+    [
+        {
+            "name":"Entity Name",
+            "scope":"entity.name",
+            "font_style":"bold",
+            "foreground": "#868e96"
+        },
+        {
+            "name":"Keyword",
+            "scope":"keyword",
+            "foreground": "#868e96"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#adb5bd"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#495057",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#495057",
+            "font_style": "italic",
+        }
+    ]
+}

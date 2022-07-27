@@ -1,0 +1,40 @@
+{
+    "name": "Mono",
+    "globals":
+    {
+        "background": "#18181b",
+        "foreground": "#94949f",
+        "caret": "#55555e",
+        "selection":"#55555e"
+    },
+    "rules":
+    [
+        {
+            "name":"Entity Name",
+            "scope":"entity.name",
+            "font_style":"bold",
+            "foreground": "#494951"
+        },
+        {
+            "name":"Keyword",
+            "scope":"keyword",
+            "foreground": "#494951"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#3d3d43"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#94949f",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#94949f",
+            "font_style": "italic",
+        }
+    ]
+}
